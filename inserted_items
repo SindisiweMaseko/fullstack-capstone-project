@@ -1,0 +1,24 @@
+Connected successfully to MongoDB server at mongodb://localhost:27017
+Database: giftlink | Collection: gifts
+Processing item seed data file...
+Importing 16 documents into the database...
+--------------------------------------------------
+[SUCCESS] Document ID: 1 - 'Dining Table Set' imported.
+[SUCCESS] Document ID: 2 - 'Highback Office Chair' imported.
+[SUCCESS] Document ID: 3 - 'Microwave Oven' imported.
+[SUCCESS] Document ID: 4 - 'Ceramic Coffee Mugs (Set of 4)' imported.
+[SUCCESS] Document ID: 5 - 'Mountain Bicycle' imported.
+[SUCCESS] Document ID: 6 - 'Yoga Mat & Blocks' imported.
+[SUCCESS] Document ID: 7 - 'Fiction Novels Bundle' imported.
+[SUCCESS] Document ID: 8 - 'Kids Building Blocks' imported.
+[SUCCESS] Document ID: 9 - 'Leather Sofa' imported.
+[SUCCESS] Document ID: 10 - 'Desk Lamp' imported.
+[SUCCESS] Document ID: 11 - 'Toaster' imported.
+[SUCCESS] Document ID: 12 - 'Blender' imported.
+[SUCCESS] Document ID: 13 - 'Skateboard' imported.
+[SUCCESS] Document ID: 14 - 'Tennis Rackets (Pair)' imported.
+[SUCCESS] Document ID: 15 - 'Encyclopedia Set' imported.
+[SUCCESS] Document ID: 16 - 'Plush Teddy Bear' imported.
+--------------------------------------------------
+MongoDB data initialization complete. Total records inserted: 16.
+Disconnecting from server...
