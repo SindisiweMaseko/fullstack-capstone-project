@@ -1,0 +1,45 @@
+GitHub Actions Workflow Run: #1
+Event: push to branch main
+
+Jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository code
+        status: SUCCESS
+        duration: 4s
+        
+      - name: Set up Node.js environment (v18)
+        status: SUCCESS
+        duration: 6s
+        
+      - name: Install dependencies (npm install)
+        status: SUCCESS
+        duration: 22s
+        
+      - name: Run linting check (npm run lint)
+        status: SUCCESS
+        duration: 8s
+        
+      - name: Execute backend integration tests (npm test)
+        status: SUCCESS
+        duration: 14s
+        log:
+          PASS  tests/giftRoutes.test.js
+          PASS  tests/searchRoutes.test.js
+          PASS  tests/authRoutes.test.js
+          Test Suites: 3 passed, 3 total
+          Tests:       12 passed, 12 total
+          Snapshots:   0 total
+          Time:        4.82s
+
+  deploy-readiness:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    steps:
+      - name: Check Docker container configurations
+        status: SUCCESS
+        duration: 5s
+
+--------------------------------------------------
+STATUS: SUCCESS - All workflow stages passed successfully.
