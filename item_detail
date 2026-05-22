@@ -1,0 +1,9 @@
+$ curl -X GET http://localhost:5000/api/gifts/1
+
+{
+  "id": "1",
+  "name": "Dining Table Set",
+  "category": "Furniture",
+  "condition": "Good",
+  "description": "Wooden dining table with four matching chairs."
+}
